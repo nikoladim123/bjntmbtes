@@ -26,7 +26,9 @@ const mapirano = this.state.filmovi.map(film =>  <Film film={film}>
 
   return( 
 <div>
-  <h1>FILMOVI</h1>
+  <div id="head">
+    <h1>FILMOVI</h1>
+  </div>
   <div id="hold">
 {mapirano}
   </div>

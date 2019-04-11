@@ -24,7 +24,7 @@
 }
 
 img{
-  height: 300px;
+  height: 50%;
   width: 200px;
 }
 div{
@@ -34,10 +34,31 @@ div{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  font-size: 12px;
 }
 #holder{
+  display: inline-block;
   max-width: 200px;
   max-height: 500px;
+  background: #7a7a7a9d;
+  margin-bottom: 10px;
+}
+h2{
+  max-height: 10px;
+  padding-bottom: 5px;
+}
+#head{
+  border: 2px solid rgba(104, 103, 103, 0.397);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-image: linear-gradient(to right, black , white);
+}
+button{
+  border-radius: 8px;
+  border-style:none;
+  height: 25px;
+  background: black;
+  color: white;
 }
 
 @keyframes App-logo-spin {
